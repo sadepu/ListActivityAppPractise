@@ -28,13 +28,14 @@ public class MainActivity extends ListActivity {
                 "This is second item",
                 "asjd"
         };
+//        this are the changes made now.
         ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(quotes));
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arrayList);
 //        ListView listLV = (ListView) findViewById(android.R.id.list);
 //        Log.d("DEBUG", "XXXXXXXXXXXXXXXXXXXXXXXXXXXX->>>>" + listLV.getId());
         getListView();
         setListAdapter(arrayAdapter);
-
+//changes
     }
 
 
