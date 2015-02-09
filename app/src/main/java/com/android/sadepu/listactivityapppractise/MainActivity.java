@@ -29,6 +29,7 @@ public class MainActivity extends ListActivity {
                 "asjd"
         };
 //        this are the changes made now. ikada kuda chesanu
+//        this are the changes made now. CHanges made again in parallel.
         ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(quotes));
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arrayList);
 //        ListView listLV = (ListView) findViewById(android.R.id.list);
